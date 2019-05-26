@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="author" content="Etienne Sharpin">
+	
+	<link rel="stylesheet" href="navbar.css">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="contactForm.css">
+	
+	<script type="text/javascript" src="htmlLoader.js"></script>
+	
+    <title>Echologie</title>
+	<link rel="icon" href="images/logo.png" type="image/png"> 
+  </head> 
+
+  <body>
+    <div id="myContainer">
+		
+		<div include="header.html"></div>
+
+		<div include="navbar.html"></div>
+		
+			<div id="myPage">
+			
+			<div id="myForm">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.4763406791767!2d2.144845315649434!3d48.88725850662776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6631db013c3b9%3A0xc41f06fc7c35157!2s%C3%89cole+Coll%C3%A8ge+Lyc%C3%A9e+Le+Bon+Sauveur!5e0!3m2!1sfr!2sfr!4v1558887954808!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+				<h3>Contact</h3>
+
+				<form action="mailto:someone@example.com:" method="post" enctype="text/plain"> Name:<br>	
+				<input type="text" name="name" value="insert your name"><br> 
+				E-mail:<br> 
+				<input type="text" name="mail" value="echologieproject@gmail.com" size="30"><br>
+				Comment:<br> 
+				<input type="text" name="comment" size="50"><br><br>
+				
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+			</div>
+		</div>
+		<div include="footer.html"></div>
+	</div>
+</body>
+ <script>
+loadHTML();
+</script> 
+</html>
